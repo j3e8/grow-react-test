@@ -1,0 +1,22 @@
+.RepInfo {
+  .fact {
+    background-color: #f0f0f0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 5px 0;
+    display: flex;
+    label {
+      color: #606060;
+      margin-right: 8px;
+      flex: 0 0 105px;
+    }
+    span {
+      flex: 1 1 1px;
+    }
+  }
+  .site-link {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+}

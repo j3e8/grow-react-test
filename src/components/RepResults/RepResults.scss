@@ -1,0 +1,26 @@
+.RepResults {
+  table {
+    width: 100%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    tr {
+      th {
+        text-align: left;
+        font-size: 16px;
+        font-weight: 300;
+        padding: 6px 12px;
+        background-color: #f0f0f0;
+      }
+      td {
+        padding: 8px 12px;
+        font-size: 15px;
+      }
+      &:hover {
+        td {
+          background-color: #c8e5ff;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

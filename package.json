@@ -1,0 +1,39 @@
+{
+  "name": "grow-react-test",
+  "version": "1.0.0",
+  "description": "For this programming test you are tasked with creating an interface around the open API located at http://whoismyrepresentative.com/api. However, to get around CORs limitation, we are providing an extremely simple node application that will act as a layer between your client app and the API. That application can be found at https://github.com/hillmanov/find-rep-api. Follow the instructions in that repo’s README to get everything up and running. Once again,  you will be using that node app as your API - you will not be accessing whoismyrepresentative.com directly from your client side app.",
+  "main": "index.js",
+  "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "gulp-babel": "^6.1.2"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.10",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-react-jsx": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^5.0.1",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j3e8/grow-react-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j3e8/grow-react-test/issues"
+  },
+  "homepage": "https://github.com/j3e8/grow-react-test#readme"
+}
